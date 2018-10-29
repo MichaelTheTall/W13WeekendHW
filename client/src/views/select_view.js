@@ -1,6 +1,6 @@
 import PubSub from '../helpers/pub_sub.js';
 
-export default class SelectView {
+class SelectView {
   constructor(element) {
     this.element = element;
   }
@@ -26,3 +26,5 @@ export default class SelectView {
     });
   }
 }
+
+export default SelectView;
